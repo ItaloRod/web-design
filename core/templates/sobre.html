@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+{% block container %}
+
+    <div class="content_principal container">
+        <div class="row ">
+            <div class="col-md-12 text-center"><h1>Sobre o Açaí</h1></div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+
+                <p>Prevenção do Câncer – o açaí contém antocianinas, antioxidantes que, segundo pesquisas, podem ter efeito preventivo importante sobre a doença. </p>
+                <p>Redução do colesterol – essas mesmas antocianinas estão associadas à diminuição dos níveis de colesterol. É o que revela estudo publicado na revista Nutrição</p>   
+                <p>Coração saudável – como consequência da redução do colesterol, está a saúde cardíaca. Tudo porque o suco de açaí protege as artérias do endurecimento (aterosclerose). É o que mostra estudo divulgado em junho de 2011 da revista Atherosclerosis.</p>
+                   
+            </div>
+            <div class="col-md-6">
+                <img src= "{% static 'img/acai_tigela.jpg' %}" alt="Acaí" class="img-fluid">
+            </div> 
+        </div>   
+    </div>
+{% endblock container %}

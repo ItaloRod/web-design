@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block container %}
+
+    <div class="content_principal container">
+        <div class="row ">
+            <div class="col-md-12 text-center"><h1>Contato</h1></div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+
+                <p>Somos uma empresa no ramo alimenticio, que está focada em levar aos clientes um melhor atendimento, 
+                    proporcionando um ambiente agradavel para se reunir com seus amigos, com comida de excelente qualidade 
+                    e principalmente saudáveis para o bem estar dos nossos clientes.</p>
+                
+                <p>Temos como missão um atendimento igualitario a todos que entrarem em nosso estabelecimento, fazendo com que cada minuto que o mesmo passe no local, 
+                    seja uma experiencia agradavel.</p>
+                   
+            </div>
+            <div class="col-md-6">
+                <form method="post">
+                    
+                    <input class="form-control color_form" type="text" name="nome" id="" placeholder="Nome">
+                    <br>
+                    <input class="form-control color_form" type="email" name="email" id="" placeholder="Email">
+                    <br>
+                    <input class="form-control color_form" type="number" name="telefone" id="" placeholder="Telefone">
+                    <br>
+                    <textarea class="form-control color_form" name="comentario" id="" rows="10" placeholder="Comentários"></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-light">Enviar</button>
+
+                </form>
+            </div> 
+        </div>     
+    </div>
+{% endblock container %}
+   
